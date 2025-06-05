@@ -4172,6 +4172,12 @@
 		(uuid "3c0713a2-589f-4b8b-8791-3c83596b46cf")
 	)
 	(junction
+		(at 107.95 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a48671-a8ca-4dd7-a490-2583b82cada4")
+	)
+	(junction
 		(at 87.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4202,12 +4208,6 @@
 		(uuid "7a70f3f8-e7ca-45f2-ba90-6f74c7ed456f")
 	)
 	(junction
-		(at 109.22 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86d4ef83-2781-434c-a237-f79975707043")
-	)
-	(junction
 		(at 92.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4218,6 +4218,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a710039e-cadf-4a0b-a090-a70f0bdc011a")
+	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d18a2bf2-bdbd-4829-8753-5a22aefebec6")
+	)
+	(junction
+		(at 92.71 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddb54e5b-54b5-4cea-852a-84498ce49bb3")
 	)
 	(junction
 		(at 93.98 39.37)
@@ -4315,6 +4327,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 38.1) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14822fe3-7395-45a1-94f5-75280f4c75a5")
+	)
+	(wire
+		(pts
 			(xy 95.25 39.37) (xy 93.98 39.37)
 		)
 		(stroke
@@ -4345,6 +4367,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 36.83) (xy 92.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c99adb-7bbd-4efb-a39f-28543a181d73")
+	)
+	(wire
+		(pts
 			(xy 146.05 91.44) (xy 138.43 91.44)
 		)
 		(stroke
@@ -4365,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 109.22 43.18)
+			(xy 107.95 43.18) (xy 116.84 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4392,6 +4424,16 @@
 			(type default)
 		)
 		(uuid "30495c4b-9229-4dd3-b531-dc6c29042809")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 93.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3253ec97-4ee3-4225-aa94-16f021e80b0e")
 	)
 	(wire
 		(pts
@@ -4425,6 +4467,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 36.83) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1df5e8-e6ef-4e94-8cd9-8230f1805a90")
+	)
+	(wire
+		(pts
 			(xy 100.33 68.58) (xy 99.06 68.58)
 		)
 		(stroke
@@ -4442,6 +4494,16 @@
 			(type default)
 		)
 		(uuid "5b3aa2a5-de05-48a4-bc8c-67e2cdc0129c")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 107.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b34a56-5510-4069-9747-8e3a9333487a")
 	)
 	(wire
 		(pts
@@ -4475,23 +4537,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 39.37) (xy 109.22 43.18)
+			(xy 109.22 36.83) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7319fb38-489c-4890-a6a1-1d7c0e552089")
-	)
-	(wire
-		(pts
-			(xy 109.22 43.18) (xy 116.84 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dfdfec8-b69f-4349-b03c-341937d02d8b")
 	)
 	(wire
 		(pts
@@ -4512,6 +4564,16 @@
 			(type default)
 		)
 		(uuid "8c84cdcb-b4ff-43e2-820c-1cd31299516e")
+	)
+	(wire
+		(pts
+			(xy 109.22 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945aee5f-63d2-4b96-891d-009619908915")
 	)
 	(wire
 		(pts
@@ -4545,7 +4607,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 34.29) (xy 92.71 39.37)
+			(xy 92.71 34.29) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4582,6 +4644,16 @@
 			(type default)
 		)
 		(uuid "e3517739-fa5a-414f-a58c-919c7b0fde2c")
+	)
+	(wire
+		(pts
+			(xy 93.98 38.1) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70dc299-cd61-44e7-8586-e165bfa018f5")
 	)
 	(wire
 		(pts
@@ -5648,7 +5720,7 @@
 	)
 	(symbol
 		(lib_id "MBRS1100T3G:MBRS1100T3G")
-		(at 111.76 39.37 180)
+		(at 111.76 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5656,14 +5728,6 @@
 		(dnp no)
 		(uuid "4b583519-df6e-4a07-9364-8ea64ddb2a36")
 		(property "Reference" "D1"
-			(at 101.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBRS1100T3G"
 			(at 101.6 43.18 0)
 			(effects
 				(font
@@ -5671,8 +5735,16 @@
 				)
 			)
 		)
+		(property "Value" "MBRS1100T3G"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "MBRS1100T3G:DIOM5436X247N"
-			(at 99.06 -54.28 0)
+			(at 99.06 -56.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5754,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MBRS1100T3-D.PDF"
-			(at 99.06 -154.28 0)
+			(at 99.06 -156.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5764,7 @@
 			)
 		)
 		(property "Description" "Weight: 95 mg (approximately); Rectangular Package for Automated Handling; Case: Epoxy, Molded; Markings: MBRS190T3: B19 MBRS1100T3: B1C; Cathode Polarity Band; Lead and Mounting Surface Temperature for Soldering Purposes: 260C Max. for 10 Seconds; Shipped in 12 mm Tape and Reel, 2500 units per reel; 150C Operating Junction Temperature; Finish: All External Surfaces Corrosion Resistant and Terminal Leads are Readily Solderable; Small Compact Surface Mountable Package with J-Bend Leads; Highly Stable Oxide"
-			(at 111.76 39.37 0)
+			(at 111.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5773,7 @@
 			)
 		)
 		(property "Height" "2.47"
-			(at 99.06 -354.28 0)
+			(at 99.06 -356.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5783,7 @@
 			)
 		)
 		(property "Mouser Part Number" "863-MBRS1100T3G"
-			(at 99.06 -454.28 0)
+			(at 99.06 -456.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5793,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MBRS1100T3G?qs=3JMERSakebpsze4F2qcnhA%3D%3D"
-			(at 99.06 -554.28 0)
+			(at 99.06 -556.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +5803,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 99.06 -654.28 0)
+			(at 99.06 -656.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5813,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MBRS1100T3G"
-			(at 99.06 -754.28 0)
+			(at 99.06 -756.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
