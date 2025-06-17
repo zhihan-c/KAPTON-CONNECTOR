@@ -2592,6 +2592,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -4009,235 +4177,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dk_Diodes-Rectifiers-Single:1N4148"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 1.27 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "digikey-footprints:Diode_DO-35_P10mm"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1N914-D.PDF"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "DIODE GEN PURP 100V 200MA DO35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "1N4148FS-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "1N4148"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Discrete Semiconductor Products"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Diodes - Rectifiers - Single"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/1N914-D.PDF"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "DIODE GEN PURP 100V 200MA DO35"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "ON Semiconductor"
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "1N4148FS-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4342,7 +4281,7 @@
 	)
 	(text "Relay switches 24V load,\ncoil is 5V"
 		(exclude_from_sim no)
-		(at 122.936 58.674 0)
+		(at 120.65 57.658 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4371,6 +4310,12 @@
 		(uuid "fd26c33e-90bc-4d6f-b627-50f6d4bb7815")
 	)
 	(junction
+		(at 158.75 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "078521e8-c904-4743-93c5-153a41cf674c")
+	)
+	(junction
 		(at 109.22 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4395,12 +4340,6 @@
 		(uuid "3721d287-72e6-458a-8456-9097dbfcb187")
 	)
 	(junction
-		(at 158.75 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bd3b637-6a63-4bc6-b54e-1410f7ef2b9d")
-	)
-	(junction
 		(at 101.6 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4413,12 +4352,6 @@
 		(uuid "4a041edc-8fe8-4e4e-85a7-078563553957")
 	)
 	(junction
-		(at 158.75 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f03fb4f-2577-401a-adaa-76f440b0ba3c")
-	)
-	(junction
 		(at 87.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4429,6 +4362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76a92d49-34f7-4cfa-b07f-7ab6a60216fc")
+	)
+	(junction
+		(at 153.67 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7779ad15-4bf8-442f-a9b5-944bb715d7f8")
 	)
 	(junction
 		(at 162.56 93.98)
@@ -4490,7 +4429,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 34.29) (xy 158.75 34.29)
+			(xy 152.4 34.29) (xy 199.39 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4600,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 49.53) (xy 158.75 52.07)
+			(xy 158.75 46.99) (xy 158.75 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4617,6 +4556,16 @@
 			(type default)
 		)
 		(uuid "357c5d4e-74a1-43a1-bf88-d648efffef1c")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fc3cb1-d033-4ced-a8e2-2840bc986986")
 	)
 	(wire
 		(pts
@@ -4700,6 +4649,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ddb878-640e-46f4-9a47-033ef551512a")
+	)
+	(wire
+		(pts
 			(xy 100.33 68.58) (xy 99.06 68.58)
 		)
 		(stroke
@@ -4707,16 +4666,6 @@
 			(type default)
 		)
 		(uuid "5603ebf1-b899-471e-84e6-efc2ee948a79")
-	)
-	(wire
-		(pts
-			(xy 158.75 34.29) (xy 199.39 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f46ea4-fb73-42ad-a136-614d3c445357")
 	)
 	(wire
 		(pts
@@ -4770,16 +4719,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 44.45) (xy 158.75 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dcf0153-b079-4e05-92bb-51b6a2b7a622")
-	)
-	(wire
-		(pts
 			(xy 92.71 21.59) (xy 92.71 24.13)
 		)
 		(stroke
@@ -4800,16 +4739,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 52.07) (xy 158.75 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9294cfdc-85d6-47ab-8029-21201e34ff55")
-	)
-	(wire
-		(pts
 			(xy 199.39 49.53) (xy 199.39 52.07)
 		)
 		(stroke
@@ -4827,6 +4756,16 @@
 			(type default)
 		)
 		(uuid "9df176fc-ad72-4df1-b67d-426902577c95")
+	)
+	(wire
+		(pts
+			(xy 153.67 60.96) (xy 153.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3abe80-41ca-4f80-b80a-a7586a3a6421")
 	)
 	(wire
 		(pts
@@ -4860,6 +4799,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 49.53) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b997be67-877b-4d62-8fb7-3a6cb30dfbe6")
+	)
+	(wire
+		(pts
 			(xy 152.4 26.67) (xy 152.4 34.29)
 		)
 		(stroke
@@ -4880,6 +4829,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 49.53) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73b218c-8c54-402a-8ff4-37d14681a33f")
+	)
+	(wire
+		(pts
+			(xy 142.24 60.96) (xy 143.51 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b37012-91b1-4c01-9883-371b6ca6ebc1")
+	)
+	(wire
+		(pts
 			(xy 199.39 54.61) (xy 199.39 57.15)
 		)
 		(stroke
@@ -4897,16 +4866,6 @@
 			(type default)
 		)
 		(uuid "e4654ea1-d718-4987-97f7-7cb6c3f0958d")
-	)
-	(wire
-		(pts
-			(xy 158.75 34.29) (xy 158.75 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f063c1fb-1a7a-4f28-a26a-88d5bb0a22f6")
 	)
 	(wire
 		(pts
@@ -5486,7 +5445,7 @@
 	)
 	(global_label "10V PWM"
 		(shape input)
-		(at 158.75 57.15 180)
+		(at 142.24 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5496,7 +5455,7 @@
 		)
 		(uuid "b47bdb71-1a0a-4aa2-aad6-f16629c5b7b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1168 57.15 0)
+			(at 130.6068 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,52 +5642,32 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Diodes-Rectifiers-Single:1N4148")
-		(at 144.78 34.29 0)
+		(lib_id "Device:D")
+		(at 146.05 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c30bc30-366e-4a00-9b56-3ccf13c2b520")
+		(uuid "0f04735c-575c-407a-ae35-e700eca4be83")
 		(property "Reference" "D2"
-			(at 144.78 36.576 0)
+			(at 146.05 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 144.78 39.116 0)
+		(property "Value" "V20DM100C-M3/I"
+			(at 148.844 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "digikey-footprints:Diode_DO-35_P10mm"
-			(at 149.86 29.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/1N914-D.PDF"
-			(at 149.86 26.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "DIODE GEN PURP 100V 200MA DO35"
-			(at 144.78 34.29 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 146.05 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,101 +5675,47 @@
 				(hide yes)
 			)
 		)
-		(property "Digi-Key_PN" "1N4148FS-ND"
-			(at 149.86 24.13 0)
+		(property "Datasheet" "~"
+			(at 146.05 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "MPN" "1N4148"
-			(at 149.86 21.59 0)
+		(property "Description" "Diode"
+			(at 146.05 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Category" "Discrete Semiconductor Products"
-			(at 149.86 19.05 0)
+		(property "Sim.Device" "D"
+			(at 146.05 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Family" "Diodes - Rectifiers - Single"
-			(at 149.86 16.51 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
-		)
-		(property "DK_Datasheet_Link" "https://www.onsemi.com/pub/Collateral/1N914-D.PDF"
-			(at 149.86 13.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603"
-			(at 149.86 11.43 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "DIODE GEN PURP 100V 200MA DO35"
-			(at 149.86 8.89 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ON Semiconductor"
-			(at 149.86 6.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 149.86 3.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0db89a29-af2d-410f-bbd7-796431945dfc")
 		)
 		(pin "2"
-			(uuid "ea00ad5f-cff3-4af3-880e-7c5a14f2ae99")
+			(uuid "362ca73e-7156-4551-8ee0-15d318bc5bd0")
+		)
+		(pin "1"
+			(uuid "c8e49682-7664-4e54-931a-7f89931aacce")
 		)
 		(instances
 			(project ""
@@ -6306,6 +6191,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 147.32 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ed9716-4fe0-4c2e-b419-04e3f2716dbc")
+		(property "Reference" "R6"
+			(at 147.32 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R10"
+			(at 149.606 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_1206"
+			(at 147.32 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd318d02-8c82-4c28-9c86-f531bbf01a0b")
+		)
+		(pin "1"
+			(uuid "593c7a84-f737-45cf-93e5-9bdde4615b87")
+		)
+		(instances
+			(project ""
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AO3400A:AO3400A")
 		(at 95.25 29.21 180)
 		(unit 1)
@@ -6513,7 +6465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 150.8252 101.6 0)
 			(effects
 				(font
@@ -7515,10 +7467,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4aa9149-3d77-46c3-b691-b30496d9f242")
 		(property "Reference" "R5"
-			(at 140.97 29.2099 0)
+			(at 132.334 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7478,7 @@
 			)
 		)
 		(property "Value" "R0.1"
-			(at 140.97 31.7499 0)
+			(at 132.334 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 136.652 30.48 90)
 			(effects
 				(font
@@ -7763,7 +7714,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 158.75 40.64 180)
+		(at 153.67 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7771,7 +7722,7 @@
 		(dnp no)
 		(uuid "dd2d05f5-528a-4ec3-9e13-84f431c68598")
 		(property "Reference" "C4"
-			(at 162.56 39.3699 0)
+			(at 155.956 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7731,7 @@
 			)
 		)
 		(property "Value" "C19nf"
-			(at 151.892 42.926 0)
+			(at 145.034 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7740,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 157.7848 36.83 0)
+			(at 152.7048 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +7749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 40.64 0)
+			(at 153.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7807,7 +7758,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 40.64 0)
+			(at 153.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,7 +7809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.5252 101.6 0)
 			(effects
 				(font
@@ -8104,7 +8055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 52.07 270)
+		(at 158.75 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8112,7 +8063,7 @@
 		(dnp no)
 		(uuid "fa379d1f-712d-484e-b907-4f592241ce49")
 		(property "Reference" "#PWR03"
-			(at 149.86 52.07 0)
+			(at 158.75 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +8072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 155.194 54.61 90)
+			(at 156.21 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8130,7 +8081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 52.07 0)
+			(at 158.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,7 +8090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 52.07 0)
+			(at 158.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8148,7 +8099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 52.07 0)
+			(at 158.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
