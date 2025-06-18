@@ -3456,6 +3456,238 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Diodes:TVS-Bi,SMCJ30CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SMCJ30CA"
+				(at 2.032 -1.2122 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SMC"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_hongjiacheng-SMCJ30CA_C19077607.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "31A 48.4V 1.5kW 36.8V Bidirectional 30V SMC ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C19077607"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "32220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.106USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Preferred Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "SMCJ30CA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS-Bi,SMCJ30CA_0_1"
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -1.27 0) (xy 1.27 0) (xy 1.905 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS-Bi,SMCJ30CA_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SIR:SIR462DP-T1-GE3"
 			(pin_names
 				(offset 0.254)
@@ -4488,6 +4720,18 @@
 		(uuid 1405f1d9-b5dc-460a-b7f4-09e0804a3aa9)
 	)
 	(rectangle
+		(start 197.485 87.63)
+		(end 281.94 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 20172744-345b-464f-8927-79791015a2b9)
+	)
+	(rectangle
 		(start 19.05 87.63)
 		(end 127 122.555)
 		(stroke
@@ -4513,7 +4757,7 @@
 	)
 	(rectangle
 		(start 19.05 19.685)
-		(end 86.995 85.09)
+		(end 89.535 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -4534,18 +4778,6 @@
 			(type none)
 		)
 		(uuid b39f4712-8070-4b6d-8d43-eb748dcdc3fa)
-	)
-	(rectangle
-		(start 197.485 87.63)
-		(end 281.94 122.555)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f2739540-5246-4907-b9bf-d98a2577583e)
 	)
 	(text "TO HEATER\n"
 		(exclude_from_sim no)
@@ -4587,16 +4819,6 @@
 		)
 		(uuid "7a90cdac-e9e0-44ad-8fa1-938aa7023b55")
 	)
-	(text "TEMP CONTROL MOSFET\n"
-		(exclude_from_sim no)
-		(at 209.55 89.916 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "900bd82f-925c-4e94-af26-647608b05722")
-	)
 	(text "CURRENT MEASUREMENT\n"
 		(exclude_from_sim no)
 		(at 103.632 46.228 0)
@@ -4617,9 +4839,19 @@
 		)
 		(uuid "d45a7487-515e-40c0-9767-83e9b74421b9")
 	)
-	(text "Pin is to receive switching\nsignal from MCU. \n"
+	(text "TEMP CONTROL MOSFET\n"
 		(exclude_from_sim no)
-		(at 40.132 74.295 0)
+		(at 209.55 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb799904-a76f-4275-91b0-29cdb4e8c1fc")
+	)
+	(text "Pin is to receive\nswitching signal from MCU. \n"
+		(exclude_from_sim no)
+		(at 79.502 44.45 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4628,22 +4860,16 @@
 		(uuid "fd26c33e-90bc-4d6f-b627-50f6d4bb7815")
 	)
 	(junction
-		(at 31.75 79.375)
+		(at 266.7 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0342158b-0261-4959-8086-b1c1e4df25c7")
+		(uuid "0863801c-b201-4ad0-8c21-a7ed962dbd31")
 	)
 	(junction
-		(at 226.06 106.68)
+		(at 201.93 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "078521e8-c904-4743-93c5-153a41cf674c")
-	)
-	(junction
-		(at 266.7 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "312a0e0d-0ae0-496d-97f3-a5c896c4bec9")
+		(uuid "18eeea2b-20d9-48c6-8789-f50a7fe3489b")
 	)
 	(junction
 		(at 38.1 110.49)
@@ -4664,6 +4890,30 @@
 		(uuid "50a846ea-957c-4a12-8263-80e350d25712")
 	)
 	(junction
+		(at 226.06 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "577123ae-0ccc-4d15-8d9f-54566ab945e1")
+	)
+	(junction
+		(at 266.7 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f9ad73-8a25-4c74-bd1e-6fdf0f37deb2")
+	)
+	(junction
+		(at 266.7 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6acc0589-cb55-4700-b57c-0b7fc0c91a56")
+	)
+	(junction
+		(at 266.7 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e71a436-fc1b-4bae-8326-ac0978989b86")
+	)
+	(junction
 		(at 69.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4676,10 +4926,10 @@
 		(uuid "755a7147-04bd-49ed-80b9-793caaafa92b")
 	)
 	(junction
-		(at 220.98 114.3)
+		(at 226.06 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7779ad15-4bf8-442f-a9b5-944bb715d7f8")
+		(uuid "77516124-e794-433c-a195-0e0c90df1de5")
 	)
 	(junction
 		(at 113.03 107.95)
@@ -4700,16 +4950,10 @@
 		(uuid "aacb6517-a1c4-4ec6-99d6-951552dde581")
 	)
 	(junction
-		(at 266.7 106.68)
+		(at 266.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4bf66ae-38ed-4d2f-863f-a5a35319296c")
-	)
-	(junction
-		(at 266.7 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b956fdb0-e22d-429a-b5cb-4f818e029f15")
+		(uuid "bc5c4e19-a6c5-4954-bba9-b3d8be93b153")
 	)
 	(junction
 		(at 111.76 60.96)
@@ -4730,22 +4974,10 @@
 		(uuid "e6d4fb4a-1c58-4320-8436-0a1c2613ab03")
 	)
 	(junction
-		(at 226.06 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec9186a6-7fba-4bc6-9a8c-261d06b630d0")
-	)
-	(junction
 		(at 99.06 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee3e53f6-de6b-46c0-aa28-381240e53a8e")
-	)
-	(junction
-		(at 31.75 81.915)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f11e67cc-c206-4dd7-8939-6a6ab1e1b7e6")
 	)
 	(junction
 		(at 133.35 69.85)
@@ -4805,6 +5037,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 80.01) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a28624-38ed-4d83-b7db-babc6f5147e9")
+	)
+	(wire
+		(pts
 			(xy 99.06 146.05) (xy 99.06 152.4)
 		)
 		(stroke
@@ -4842,26 +5084,6 @@
 			(type default)
 		)
 		(uuid "10f02260-cf1a-48a5-83c7-b392fc526be7")
-	)
-	(wire
-		(pts
-			(xy 266.7 106.68) (xy 266.7 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f4cdbf-0473-44d1-92c1-4975e365a0a4")
-	)
-	(wire
-		(pts
-			(xy 58.42 79.375) (xy 55.88 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12834187-e6bc-4745-9147-81401a67fb27")
 	)
 	(wire
 		(pts
@@ -4915,6 +5137,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 140.97) (xy 232.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e30a776-af7e-49fc-b9fc-d73d6f88104d")
+	)
+	(wire
+		(pts
 			(xy 125.73 53.34) (xy 133.35 53.34)
 		)
 		(stroke
@@ -4925,26 +5157,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 226.06 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "330e08c5-3c8e-42da-b154-ab74da2b8793")
-	)
-	(wire
-		(pts
-			(xy 226.06 109.22) (xy 226.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357c5d4e-74a1-43a1-bf88-d648efffef1c")
-	)
-	(wire
-		(pts
 			(xy 111.76 60.96) (xy 111.76 62.23)
 		)
 		(stroke
@@ -4952,26 +5164,6 @@
 			(type default)
 		)
 		(uuid "3584849c-c860-4cb3-b85c-03d087e51475")
-	)
-	(wire
-		(pts
-			(xy 266.7 101.6) (xy 266.7 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3685a902-0631-4843-a137-58c0ad296249")
-	)
-	(wire
-		(pts
-			(xy 218.44 118.11) (xy 220.98 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39fc3cb1-d033-4ced-a8e2-2840bc986986")
 	)
 	(wire
 		(pts
@@ -5005,6 +5197,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 111.76) (xy 266.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c989d09-ec9d-455c-bc3a-9d8090ab11f5")
+	)
+	(wire
+		(pts
 			(xy 93.98 146.05) (xy 99.06 146.05)
 		)
 		(stroke
@@ -5012,6 +5214,16 @@
 			(type default)
 		)
 		(uuid "3d97fbb1-2bd8-42a1-b8ab-79641a5db934")
+	)
+	(wire
+		(pts
+			(xy 201.93 129.54) (xy 231.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f21a8d2-19f5-4d02-a999-826146e72833")
 	)
 	(wire
 		(pts
@@ -5025,13 +5237,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 79.375) (xy 48.26 79.375)
+			(xy 58.42 80.01) (xy 58.42 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4264430f-4ddd-4099-b76a-bc24d7175aa0")
+		(uuid "41e4b795-eac2-49ad-b0fb-9a4da81fd25e")
 	)
 	(wire
 		(pts
@@ -5045,23 +5257,33 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 81.915) (xy 40.64 81.915)
+			(xy 266.7 109.22) (xy 266.7 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49b73d0d-1d60-4daf-a6e9-9ed03f7be981")
+		(uuid "4701c210-6f04-4ed0-a88c-0f48936620c9")
 	)
 	(wire
 		(pts
-			(xy 220.98 114.3) (xy 226.06 114.3)
+			(xy 266.7 129.54) (xy 266.7 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51ddb878-640e-46f4-9a47-033ef551512a")
+		(uuid "4bbbd2b4-7596-4064-9b05-9a7a248591c8")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 226.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572d0bad-d077-4b81-b0a5-3f612c23731e")
 	)
 	(wire
 		(pts
@@ -5085,13 +5307,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 81.915) (xy 31.75 81.915)
+			(xy 226.06 106.68) (xy 226.06 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b3aa2a5-de05-48a4-bc8c-67e2cdc0129c")
+		(uuid "6250d399-2dd8-44de-8cba-8eb5a26ac538")
 	)
 	(wire
 		(pts
@@ -5115,6 +5337,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 80.01) (xy 58.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6620d917-ce70-4de1-8dd2-521d158b5653")
+	)
+	(wire
+		(pts
 			(xy 69.85 47.625) (xy 69.85 53.34)
 		)
 		(stroke
@@ -5132,16 +5364,6 @@
 			(type default)
 		)
 		(uuid "7f464fc2-b2dd-445f-b86e-3c24d4c3d1c0")
-	)
-	(wire
-		(pts
-			(xy 27.94 79.375) (xy 31.75 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80b2bf17-d6af-4d40-86c4-2ea7b72278f5")
 	)
 	(wire
 		(pts
@@ -5185,6 +5407,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 140.97) (xy 201.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905f03bb-6817-4a04-9d32-9fd7618ee7c7")
+	)
+	(wire
+		(pts
 			(xy 99.06 146.05) (xy 104.14 146.05)
 		)
 		(stroke
@@ -5225,13 +5457,43 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 118.11) (xy 220.98 114.3)
+			(xy 266.7 114.3) (xy 266.7 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e3abe80-41ca-4f80-b80a-a7586a3a6421")
+		(uuid "a453537c-4793-4cd3-a548-55a2f4710c42")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e0f87e-0c59-4ffb-8921-bee3d45d5007")
+	)
+	(wire
+		(pts
+			(xy 201.93 106.68) (xy 201.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f95c7d-7e90-48d5-93be-620f6a8521e2")
+	)
+	(wire
+		(pts
+			(xy 226.06 109.22) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82312d0-0d16-4c3b-9cc4-3ef6220e1c95")
 	)
 	(wire
 		(pts
@@ -5265,16 +5527,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 106.68) (xy 226.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b997be67-877b-4d62-8fb7-3a6cb30dfbe6")
-	)
-	(wire
-		(pts
 			(xy 46.99 110.49) (xy 46.99 107.95)
 		)
 		(stroke
@@ -5285,13 +5537,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 109.22) (xy 266.7 111.76)
+			(xy 224.79 140.97) (xy 201.93 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7a2b097-d983-4248-b62c-01ce13aaf4e7")
+		(uuid "cd94edb3-56c3-476a-a71f-74ab1015cab6")
 	)
 	(wire
 		(pts
@@ -5305,33 +5557,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 106.68) (xy 226.06 106.68)
+			(xy 266.7 101.6) (xy 266.7 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d73b218c-8c54-402a-8ff4-37d14681a33f")
+		(uuid "d5e4c23c-5689-45cc-ae87-232a0de7abd0")
 	)
 	(wire
 		(pts
-			(xy 209.55 118.11) (xy 210.82 118.11)
+			(xy 238.76 129.54) (xy 266.7 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7b37012-91b1-4c01-9883-371b6ca6ebc1")
-	)
-	(wire
-		(pts
-			(xy 266.7 111.76) (xy 266.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce90db4-d14f-44d9-88a7-d2072482c292")
+		(uuid "d7bd3290-3691-4d9e-9b16-3ded15980586")
 	)
 	(wire
 		(pts
@@ -5342,6 +5584,16 @@
 			(type default)
 		)
 		(uuid "ddbee36b-2748-47bf-994c-aa8939b5119d")
+	)
+	(wire
+		(pts
+			(xy 266.7 106.68) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a7079e-6ee1-4cb1-ab37-fa7e2c465052")
 	)
 	(wire
 		(pts
@@ -5365,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 140.97) (xy 266.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed238c36-391f-4018-a86c-84ec616af5ee")
+	)
+	(wire
+		(pts
 			(xy 99.06 144.78) (xy 99.06 146.05)
 		)
 		(stroke
@@ -5385,13 +5647,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 58.42 78.74)
+			(xy 214.63 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5efc48e-6d27-4d05-bec9-15b197620f72")
+		(uuid "f6b12bc1-d00e-4d15-99c4-914854caba98")
+	)
+	(wire
+		(pts
+			(xy 201.93 106.68) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ce4b51-4ac7-4872-b13d-303af9fc68d2")
 	)
 	(wire
 		(pts
@@ -5412,16 +5684,6 @@
 			(type default)
 		)
 		(uuid "fffda3fa-2fbd-42a8-a780-85b22675676f")
-	)
-	(label "24VIN"
-		(at 39.37 79.375 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e7747f4-241c-4d2c-9132-64aab465ae30")
 	)
 	(label "24V"
 		(at 80.01 146.05 180)
@@ -6015,6 +6277,28 @@
 			)
 		)
 	)
+	(global_label "HEATER OUT"
+		(shape input)
+		(at 266.7 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8eeb636b-d4cd-4179-87aa-45fbe4d26c0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.2361 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TH9"
 		(shape input)
 		(at 53.34 137.16 0)
@@ -6103,28 +6387,6 @@
 			)
 		)
 	)
-	(global_label "10V PWM"
-		(shape input)
-		(at 209.55 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b47bdb71-1a0a-4aa2-aad6-f16629c5b7b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9168 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TH1"
 		(shape input)
 		(at 27.94 134.62 180)
@@ -6169,6 +6431,28 @@
 			)
 		)
 	)
+	(global_label "10V PWM"
+		(shape input)
+		(at 214.63 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3381112-2c34-407f-a170-cdde54434d8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.9968 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM"
 		(shape input)
 		(at 27.94 102.87 180)
@@ -6187,28 +6471,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HEATER OUT"
-		(shape input)
-		(at 266.7 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ead7a700-d7a3-478e-8238-0f7847347852")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.2361 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6476,6 +6738,74 @@
 			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea45270-e241-4a59-82af-b0c23dda93e5")
+		(property "Reference" "R8"
+			(at 241.3 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R27"
+			(at 241.3 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49a3630b-2020-4828-b2be-a87c02f5d0d3")
+		)
+		(pin "2"
+			(uuid "b2be233d-2a35-4899-8d1d-c50037efed3c")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7011,6 +7341,164 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMCJ30CA")
+		(at 234.95 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b3c5c1-829b-494d-9053-9b464b648867")
+		(property "Reference" "D3"
+			(at 234.95 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMCJ30CA"
+			(at 234.95 125.73 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SMC"
+			(at 234.95 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_hongjiacheng-SMCJ30CA_C19077607.pdf"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "31A 48.4V 1.5kW 36.8V Bidirectional 30V SMC ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077607"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "32220"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.106USD"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "2"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "0"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMCJ30CA"
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee959235-14c0-4dde-9445-d6530fdf0e54")
+		)
+		(pin "2"
+			(uuid "47808594-1e0a-44f1-872f-238f4cbe1805")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1-1393210-8:1-1393210-8")
 		(at 60.96 63.5 270)
 		(unit 1)
@@ -7238,7 +7726,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 118.11 270)
+		(at 219.71 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7246,15 +7734,15 @@
 		(dnp no)
 		(uuid "50ed9716-4fe0-4c2e-b419-04e3f2716dbc")
 		(property "Reference" "R6"
-			(at 214.63 120.396 90)
+			(at 219.71 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R10"
-			(at 214.63 115.316 90)
+		(property "Value" "R5"
+			(at 219.71 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7750,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 214.63 116.332 90)
+			(at 219.71 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 118.11 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7768,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 118.11 0)
+			(at 219.71 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,7 +7783,7 @@
 			(uuid "593c7a84-f737-45cf-93e5-9bdde4615b87")
 		)
 		(instances
-			(project ""
+			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "R6")
 					(unit 1)
@@ -7418,7 +7906,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 52.07 79.375 90)
+		(at 52.07 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7426,7 +7914,7 @@
 		(dnp no)
 		(uuid "60cf2a41-83e4-429a-b20d-28a56780274b")
 		(property "Reference" "F1"
-			(at 52.07 73.025 90)
+			(at 52.07 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +7922,7 @@
 			)
 		)
 		(property "Value" "14 Amp Fuse"
-			(at 52.07 82.423 90)
+			(at 52.07 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,7 +7930,7 @@
 			)
 		)
 		(property "Footprint" "FUSE_0697H9200:FUSRR508W60L835T400H810"
-			(at 52.07 81.153 90)
+			(at 52.07 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 79.375 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7948,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 52.07 79.375 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7963,7 @@
 			(uuid "9e488cbd-efc1-4993-ba40-0aceb94f35ac")
 		)
 		(instances
-			(project ""
+			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "F1")
 					(unit 1)
@@ -7805,7 +8293,7 @@
 				)
 			)
 		)
-		(property "Value" "SIR462DP-T1-GE3"
+		(property "Value" "SIR626ADP"
 			(at 246.38 99.06 0)
 			(effects
 				(font
@@ -7867,7 +8355,7 @@
 			(uuid "58208d90-79e1-442c-a2a5-6fb9e4ddb02d")
 		)
 		(instances
-			(project ""
+			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "MOSFET1")
 					(unit 1)
@@ -8179,7 +8667,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 81.915 90)
+		(at 31.75 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8188,7 +8676,7 @@
 		(fields_autoplaced yes)
 		(uuid "84fd8f6c-1e21-4851-8675-99bde2520edd")
 		(property "Reference" "#PWR04"
-			(at 46.99 81.915 0)
+			(at 38.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 81.9149 90)
+			(at 35.56 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,7 +8695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 81.915 0)
+			(at 31.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 81.915 0)
+			(at 31.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8225,7 +8713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 81.915 0)
+			(at 31.75 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,6 +9138,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3143daf-38b1-43bd-9ce0-c3ea876a84a0")
+		(property "Reference" "C4"
+			(at 228.6 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C4.7nf"
+			(at 228.6 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 141.9352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "390a35a9-a86b-49c9-818b-4d71ac264ad9")
+		)
+		(pin "1"
+			(uuid "476edd20-2616-4a44-849c-746511cff491")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 99.06 140.97 180)
 		(unit 1)
@@ -8970,75 +9526,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 220.98 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd2d05f5-528a-4ec3-9e13-84f431c68598")
-		(property "Reference" "C4"
-			(at 223.266 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C19nf"
-			(at 212.344 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 220.0148 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a13e9a0-d3f7-4631-abe8-50eae246db9e")
-		)
-		(pin "1"
-			(uuid "649b299e-fc7a-452e-aff8-0215ee457ceb")
-		)
-		(instances
-			(project "KAPTON-HEATERV2"
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 113.03 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9177,7 +9664,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 81.915 180)
+		(at 26.67 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9186,7 +9673,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4b70250-1c08-412b-9f70-aa7aab284b27")
 		(property "Reference" "J2"
-			(at 26.67 73.025 0)
+			(at 26.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9681,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 26.67 75.565 0)
+			(at 26.67 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9689,7 @@
 			)
 		)
 		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
-			(at 26.67 81.915 0)
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 81.915 0)
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9707,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 81.915 0)
+			(at 26.67 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
