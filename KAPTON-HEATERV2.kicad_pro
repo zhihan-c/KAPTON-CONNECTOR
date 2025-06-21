@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.6,
+          "height": 2.4,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|115000000|128079000|bb709d5e-8e35-484e-b2c6-c41536980335|00000000-0000-0000-0000-000000000000",
+          "edited to include middle pad"
+        ],
+        [
+          "lib_footprint_mismatch|128565750|116250000|23e64b5f-8037-404b-9bfa-fb3fb9c10e2a|00000000-0000-0000-0000-000000000000",
+          "edited to have ground"
+        ]
+      ],
       "meta": {
         "version": 2
       },
