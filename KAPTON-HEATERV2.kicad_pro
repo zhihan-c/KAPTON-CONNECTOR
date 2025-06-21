@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 2.4,
-          "width": 1.2
+          "drill": 2.2,
+          "height": 2.2,
+          "width": 2.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -504,25 +504,42 @@
         "via_drill": 1.0
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "24VIN",
+        "name": "DEF2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 4.0,
-        "via_diameter": 2.5,
-        "via_drill": 1.0
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/24V": [
+        "24V"
+      ],
+      "HEATER OUT": [
+        "24V"
+      ],
+      "Net-(F1-Pad2)": [
+        "24V"
+      ],
+      "Net-(J2-Pin_2)": [
+        "24V"
+      ],
+      "SHUNT HIGH": [
+        "24V",
+        "DEF2"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "24V",
@@ -543,6 +560,18 @@
       {
         "netclass": "24V",
         "pattern": "/24VIN"
+      },
+      {
+        "netclass": "24V",
+        "pattern": "SHUNT HIGH"
+      },
+      {
+        "netclass": "DEF2",
+        "pattern": "HEATER OUT"
+      },
+      {
+        "netclass": "DEF2",
+        "pattern": "GND"
       }
     ]
   },
