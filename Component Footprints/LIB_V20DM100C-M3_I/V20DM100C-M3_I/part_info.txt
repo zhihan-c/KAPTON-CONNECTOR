@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=V20DM100C-M3/I
+PartCategory=Schottky Diode
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2019-11-03 10:26:46
+Downloaded=2025-06-25 10:48:11
+3D=N

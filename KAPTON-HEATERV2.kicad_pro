@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|115000000|128079000|bb709d5e-8e35-484e-b2c6-c41536980335|00000000-0000-0000-0000-000000000000",
-          "edited to include middle pad"
-        ],
-        [
-          "lib_footprint_mismatch|128565750|116250000|23e64b5f-8037-404b-9bfa-fb3fb9c10e2a|00000000-0000-0000-0000-000000000000",
-          "edited to have ground"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -197,9 +188,17 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
+        0.3,
+        0.5,
+        0.7,
         1.0,
         4.0,
-        6.0
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        30.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,6 +230,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 2.0,
+          "drill": 0.8
+        },
+        {
+          "diameter": 2.2,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -541,6 +548,9 @@
       "Net-(F1-Pad2)": [
         "24V"
       ],
+      "Net-(J2--)": [
+        "24V"
+      ],
       "Net-(J2-Pin_2)": [
         "24V"
       ],
@@ -579,7 +589,7 @@
         "pattern": "HEATER OUT"
       },
       {
-        "netclass": "DEF2",
+        "netclass": "24V",
         "pattern": "GND"
       }
     ]

@@ -2507,148 +2507,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2771,194 +2629,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D2"
-				(at 0 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "V20DM100C-M3/I"
-				(at -1.778 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_0"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4645,6 +4315,400 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "V20DM100C-M3_I:V20DM100C-M3_I"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "V20DM100C-M3_I"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "V40DL45BPM3I"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/87575/v20dm100c.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky Diodes & Rectifiers 100V 20A SMPD(TO-263AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "78-V20DM100C-M3/I"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/V20DM100C-M3-I?qs=F5EMLAvA7IDlhwdxAC8a8w%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "V20DM100C-M3/I"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "V20DM100C-M3_I_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "A_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XT60PW-M:XT60PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 5.7234 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT60PW-M"
+				(at -5.08 -5.0923 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "V1.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XT60PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Socket, DC supply, male, PIN: 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-M_0_0"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4900,6 +4964,18 @@
 		(uuid "fd26c33e-90bc-4d6f-b627-50f6d4bb7815")
 	)
 	(junction
+		(at 101.6 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "102b23d1-f606-400a-8b97-fb4ecbc0e19e")
+	)
+	(junction
+		(at 72.39 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1038a57c-6ab6-4784-ada1-c024c304ee01")
+	)
+	(junction
 		(at 201.93 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4922,6 +4998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50a846ea-957c-4a12-8263-80e350d25712")
+	)
+	(junction
+		(at 62.23 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55ad921f-1244-464b-bc07-0ff4d9ad32aa")
 	)
 	(junction
 		(at 226.06 109.22)
@@ -4960,16 +5042,16 @@
 		(uuid "8081e3f0-bcce-41bc-9542-901387225dbb")
 	)
 	(junction
-		(at 113.03 107.95)
+		(at 106.68 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "831efed9-decf-4dc1-a6df-e73646032e90")
+		(uuid "816756a0-873c-4414-926d-053635e5823a")
 	)
 	(junction
-		(at 100.33 107.95)
+		(at 111.76 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a327335-3fe0-40e8-bb8e-ecf5dde5d547")
+		(uuid "99ba13e1-e39d-4aac-950a-5fa6f53fd483")
 	)
 	(junction
 		(at 266.7 109.22)
@@ -4978,16 +5060,22 @@
 		(uuid "9d6e4ee0-cbc5-4e14-a669-c920a180df78")
 	)
 	(junction
-		(at 82.55 146.05)
+		(at 78.74 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aacb6517-a1c4-4ec6-99d6-951552dde581")
+		(uuid "b90c3ca7-237a-432c-9f65-fdc0579a28f7")
 	)
 	(junction
 		(at 266.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc5c4e19-a6c5-4954-bba9-b3d8be93b153")
+	)
+	(junction
+		(at 97.79 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd73f2d7-b92e-4d00-9639-33cee53dfb6d")
 	)
 	(junction
 		(at 111.76 60.96)
@@ -5014,16 +5102,22 @@
 		(uuid "eb5bc513-6bfb-49ff-85c6-ffb0980ca72f")
 	)
 	(junction
-		(at 99.06 146.05)
+		(at 86.36 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee3e53f6-de6b-46c0-aa28-381240e53a8e")
+		(uuid "ebc459ff-902f-4d16-966d-8703cff33c9e")
 	)
 	(junction
 		(at 133.35 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3860f5a-8377-41bc-b532-c4bd17dbead9")
+	)
+	(junction
+		(at 76.2 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb01efd4-c1c5-40a0-b55f-ff307bb4f862")
 	)
 	(junction
 		(at 119.38 60.96)
@@ -5091,16 +5185,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 146.05) (xy 99.06 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09de2bec-6301-4236-b654-d1140a8f51a2")
-	)
-	(wire
-		(pts
 			(xy 59.69 27.94) (xy 59.69 29.21)
 		)
 		(stroke
@@ -5108,16 +5192,6 @@
 			(type default)
 		)
 		(uuid "0d01f138-f1e7-4934-b181-7692a41ba887")
-	)
-	(wire
-		(pts
-			(xy 93.98 146.05) (xy 99.06 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e3f2bac-62aa-47e0-b02d-bb6df13c6e0a")
 	)
 	(wire
 		(pts
@@ -5148,6 +5222,16 @@
 			(type default)
 		)
 		(uuid "15b26e9d-fc1b-478e-a5b9-b8bcee43c262")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 119.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bcb98a-d4cf-42d9-8fd7-6a1d09abc9da")
 	)
 	(wire
 		(pts
@@ -5191,6 +5275,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 166.37) (xy 101.6 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c423872-ee97-4c87-9bbf-1e1e6a1cbb7f")
+	)
+	(wire
+		(pts
 			(xy 237.49 140.97) (xy 232.41 140.97)
 		)
 		(stroke
@@ -5201,6 +5295,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 151.13) (xy 106.68 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214513c7-8f22-4866-80af-37869d0ef000")
+	)
+	(wire
+		(pts
 			(xy 266.7 106.68) (xy 266.7 109.22)
 		)
 		(stroke
@@ -5208,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "21c2e3b1-ffd2-4b52-98ce-0c4a4e68cc7e")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 106.68 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25699ec5-6a8d-441e-abcc-48eda2b3084c")
 	)
 	(wire
 		(pts
@@ -5251,13 +5365,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 107.95) (xy 100.33 107.95)
+			(xy 76.2 134.62) (xy 78.74 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b107c79-b08e-47f7-91f0-8660b269ad2a")
+		(uuid "3ef6f3c5-ef2c-4a1c-9625-e9d2240c5449")
 	)
 	(wire
 		(pts
@@ -5301,13 +5415,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 88.9 107.95)
+			(xy 62.23 134.62) (xy 76.2 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "464e368f-1d44-4d60-8f11-04c589d0d0d6")
+		(uuid "45a40c5d-3825-4331-a02d-ccb6d3fd66ed")
 	)
 	(wire
 		(pts
@@ -5328,6 +5442,26 @@
 			(type default)
 		)
 		(uuid "4bbbd2b4-7596-4064-9b05-9a7a248591c8")
+	)
+	(wire
+		(pts
+			(xy 106.68 162.56) (xy 111.76 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d50eebe-0349-4dcf-9cc8-b4bca5d35574")
+	)
+	(wire
+		(pts
+			(xy 72.39 53.34) (xy 86.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523d5efb-353c-4865-b4ed-12bb8c959cfd")
 	)
 	(wire
 		(pts
@@ -5358,6 +5492,26 @@
 			(type default)
 		)
 		(uuid "5a378a32-78ef-4cb3-a151-3ca4c5622b2f")
+	)
+	(wire
+		(pts
+			(xy 78.74 151.13) (xy 78.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b83df1c-5781-4781-b8c2-b5da68fd87be")
+	)
+	(wire
+		(pts
+			(xy 92.71 151.13) (xy 106.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc2ceec-7f7b-4a06-8146-9b403320eb10")
 	)
 	(wire
 		(pts
@@ -5411,6 +5565,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 151.13) (xy 78.74 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba3267b-cfef-45da-aa90-09342cd673d4")
+	)
+	(wire
+		(pts
 			(xy 50.8 27.94) (xy 50.8 34.29)
 		)
 		(stroke
@@ -5451,16 +5615,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 134.62) (xy 99.06 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2b5585-3cb7-49cf-9e30-0f72353259f9")
-	)
-	(wire
-		(pts
 			(xy 201.93 140.97) (xy 201.93 129.54)
 		)
 		(stroke
@@ -5471,23 +5625,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 146.05) (xy 104.14 146.05)
+			(xy 86.36 53.34) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a2c3536-ec97-4854-9eca-5f89d9fd865b")
-	)
-	(wire
-		(pts
-			(xy 99.06 134.62) (xy 99.06 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c257a5d-881a-4d72-b460-b6ba3fa13518")
+		(uuid "93ed666f-4fc3-417f-821d-c6fb393e1097")
 	)
 	(wire
 		(pts
@@ -5571,13 +5715,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 107.95) (xy 113.03 107.95)
+			(xy 88.9 107.95) (xy 97.79 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b6b63f43-c86f-4574-8b72-34f7643b297b")
+	)
+	(wire
+		(pts
+			(xy 78.74 154.94) (xy 78.74 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe4f3fa-8dec-47fe-8cac-9ef4a1df511f")
 	)
 	(wire
 		(pts
@@ -5601,16 +5755,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 146.05) (xy 86.36 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda92387-1185-4c59-a32e-a0993c01a362")
-	)
-	(wire
-		(pts
 			(xy 266.7 101.6) (xy 266.7 106.68)
 		)
 		(stroke
@@ -5631,23 +5775,43 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 146.05) (xy 82.55 146.05)
+			(xy 97.79 107.95) (xy 111.76 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddbee36b-2748-47bf-994c-aa8939b5119d")
+		(uuid "d9e447ae-34db-4b76-935c-078435f35b7d")
 	)
 	(wire
 		(pts
-			(xy 82.55 134.62) (xy 82.55 146.05)
+			(xy 53.34 134.62) (xy 62.23 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e90998e1-da39-407f-a482-4d044b27dfd2")
+		(uuid "de7ff330-beae-4e28-901c-fe1594faf6de")
+	)
+	(wire
+		(pts
+			(xy 101.6 162.56) (xy 101.6 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d3af12-e5ba-4e1e-8545-6953642704f3")
+	)
+	(wire
+		(pts
+			(xy 106.68 162.56) (xy 106.68 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc77a61-58cb-44b1-9d68-ce195ca2a250")
 	)
 	(wire
 		(pts
@@ -5681,16 +5845,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 144.78) (xy 99.06 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f09d2259-c78e-49af-9a6e-d75ea5283fc2")
-	)
-	(wire
-		(pts
 			(xy 119.38 53.34) (xy 125.73 53.34)
 		)
 		(stroke
@@ -5721,6 +5875,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 162.56) (xy 106.68 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f756cb64-f526-463d-9f6d-193bc3333ea0")
+	)
+	(wire
+		(pts
 			(xy 201.93 106.68) (xy 226.06 106.68)
 		)
 		(stroke
@@ -5728,6 +5892,16 @@
 			(type default)
 		)
 		(uuid "f7ce4b51-4ac7-4872-b13d-303af9fc68d2")
+	)
+	(wire
+		(pts
+			(xy 76.2 154.94) (xy 78.74 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e2b26d-29de-4e1b-bbdd-a481af4e3aca")
 	)
 	(wire
 		(pts
@@ -5750,14 +5924,14 @@
 		(uuid "fffda3fa-2fbd-42a8-a780-85b22675676f")
 	)
 	(label "24V"
-		(at 80.01 146.05 180)
+		(at 76.2 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "52f9127c-bb0d-4d88-9e90-f4b417a8ddc2")
+		(uuid "5d8cb5b1-f9a9-4070-bf67-3305c9f5cabc")
 	)
 	(label "24V"
 		(at 63.5 71.12 270)
@@ -5804,6 +5978,28 @@
 		(uuid "0cd33902-3053-4c96-a7ea-35f5ddb0330d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.18 97.6472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HEATER OUT"
+		(shape input)
+		(at 111.76 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f59b080-e788-4c60-97a5-caa30b25f2a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.2961 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,31 +6251,9 @@
 			)
 		)
 	)
-	(global_label "SHUNT LOW"
-		(shape input)
-		(at 99.06 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "40e4a36a-08c6-4b33-b043-e0049c909100")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.9914 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
-		(at 53.34 134.62 0)
+		(at 78.74 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6089,7 +6263,7 @@
 		)
 		(uuid "42f143ed-360a-42ee-9946-8f1136ccccfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.6233 134.62 0)
+			(at 84.0233 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +6319,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 72.39 53.34 0)
+		(at 87.63 53.34 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6155,7 +6329,7 @@
 		)
 		(uuid "562248b4-d4fd-40b5-a05e-ccf8a14d0cba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.6733 53.34 0)
+			(at 87.63 48.0567 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,6 +6352,28 @@
 		(uuid "57c5f09a-0351-4603-b4e0-b23f2bfaa6ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.1 97.6472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHUNT HIGH"
+		(shape input)
+		(at 106.68 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5823f309-d4a6-4451-971f-af0760e1dbf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.3372 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,28 +6471,6 @@
 			)
 		)
 	)
-	(global_label "HEATER OUT"
-		(shape input)
-		(at 104.14 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c07dcc1-c54d-4ecc-b7cb-fff3391c1765")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.6761 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RELAY"
 		(shape input)
 		(at 71.12 36.83 0)
@@ -6385,28 +6559,6 @@
 			)
 		)
 	)
-	(global_label "SHUNT HIGH"
-		(shape input)
-		(at 99.06 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a40aa8f5-d8a9-45f7-866b-7b3da808d6d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.7172 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TH2"
 		(shape input)
 		(at 27.94 137.16 180)
@@ -6425,6 +6577,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHUNT LOW"
+		(shape input)
+		(at 106.68 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af5ae73f-1f97-4ad6-ba78-9e4432800095")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.6114 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6608,6 +6782,37 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 81.28 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06426c71-c3f7-472a-a5df-84d87dc6e74b")
+		(property "Netclass" "24V"
+			(at 81.9785 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 39.37 80.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6628,37 +6833,6 @@
 		)
 		(property "Component Class" ""
 			(at -194.31 -49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 94.615 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24ae9810-18a2-4e2d-80c9-491c1fd95085")
-		(property "Netclass" "24V"
-			(at 95.3135 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -139.065 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,17 +6876,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 82.55 137.16 90)
+		(at 99.06 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "4ad2ab81-8551-47e6-a336-dd3a49ef0f63")
+		(uuid "5fe4d9b3-bdef-46f5-bb15-6fb57fe619f9")
 		(property "Netclass" "24V"
-			(at 80.01 136.4615 90)
+			(at 99.7585 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6895,38 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -151.13 7.62 0)
+			(at -134.62 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 102.235 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e3332c7-fe1e-414e-9651-3aca44abec40")
+		(property "Netclass" "24V"
+			(at 102.9335 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -131.445 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,37 +6958,6 @@
 		)
 		(property "Component Class" ""
 			(at -175.26 -50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 91.44 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f21ee7ed-6359-4c55-8c83-0868e67a9e43")
-		(property "Netclass" "24V"
-			(at 92.1385 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -142.24 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,72 +7027,6 @@
 			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0347557d-fdac-4ce4-b7ad-1bdfb8629a93")
-		(property "Reference" "#PWR010"
-			(at 100.33 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79bb59f6-f110-40cb-a440-d415b7f8f0b6")
-		)
-		(instances
-			(project "KAPTON-HEATERV2"
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7063,94 +7171,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 90.17 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f04735c-575c-407a-ae35-e700eca4be83")
-		(property "Reference" "D2"
-			(at 90.17 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V20DM100C-M3/I"
-			(at 88.392 148.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "362ca73e-7156-4551-8ee0-15d318bc5bd0")
-		)
-		(pin "3"
-			(uuid "c8e49682-7664-4e54-931a-7f89931aacce")
-		)
-		(pin "1"
-			(uuid "2fc798f6-e859-4ac5-96d8-75c2d5070a0f")
-		)
-		(instances
-			(project ""
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 59.69 27.94 180)
 		(unit 1)
@@ -7277,6 +7297,142 @@
 			(project ""
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2019ae63-58b1-4416-a7ea-737962975875")
+		(property "Reference" "#PWR011"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d9c7cfd-96f4-4e3e-b2fd-d89b9053cbf1")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d4bd69-16ab-4899-a55e-1de84f76ddab")
+		(property "Reference" "C1"
+			(at 115.57 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C4.7uf"
+			(at 115.57 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 112.7252 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df06204f-8514-4eab-b70f-b16826697918")
+		)
+		(pin "1"
+			(uuid "45b805fc-e637-4f96-a687-b018aa8726f0")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7753,6 +7909,332 @@
 		)
 	)
 	(symbol
+		(lib_id "XT60PW-M:XT60PW-M")
+		(at 92.71 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a2f98ae-508c-4a16-8ac4-39625d696db5")
+		(property "Reference" "J1"
+			(at 96.52 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 96.52 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.2"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket, DC supply, male, PIN: 2"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eacd707d-7476-48e2-afcc-202d1d912fd9")
+		)
+		(pin "1"
+			(uuid "609ec0d4-3777-4854-962d-32e0f9eae549")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40eb5cbb-a396-49dc-9550-59f170552409")
+		(property "Reference" "#PWR018"
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 61.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76987845-418d-47dd-99f9-54ae06cf7b54")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.39 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "464e90c0-443f-441e-a20a-2c778cf6181b")
+		(property "Reference" "C9"
+			(at 75.184 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C0.1uf"
+			(at 75.184 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 73.3552 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a3afe9f-a331-4e82-a4bc-bf1ec10a336e")
+		)
+		(pin "1"
+			(uuid "58ff7795-6bfc-4c6e-a31c-8fb259ea31b8")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1-1393210-8:1-1393210-8")
 		(at 60.96 63.5 270)
 		(unit 1)
@@ -7760,10 +8242,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "48a15120-1161-4a2d-8850-28e790f817f3")
 		(property "Reference" "K1"
-			(at 69.85 60.9599 90)
+			(at 48.768 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +8253,7 @@
 			)
 		)
 		(property "Value" "1-1393210-8"
-			(at 69.85 63.4999 90)
+			(at 38.1 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,6 +8460,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 72.39 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b7ec77d-4661-44a4-9af1-f5387ac84699")
+		(property "Reference" "#PWR017"
+			(at 72.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7521268-91b6-4612-bc2f-e49b0c29fe30")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 219.71 114.3 270)
 		(unit 1)
@@ -8040,6 +8587,266 @@
 			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT60PW-M:XT60PW-M")
+		(at 31.75 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51a2e290-e1d2-4ed5-ae29-09677741997a")
+		(property "Reference" "J2"
+			(at 35.56 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XT60PW-M"
+			(at 35.56 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V1.2"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT60PW-M"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket, DC supply, male, PIN: 2"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd720d20-b0c4-4de6-be29-7d005dbe66dc")
+		)
+		(pin "1"
+			(uuid "f25ff59a-78f0-404c-a5ef-013785d162d4")
+		)
+		(instances
+			(project ""
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52d1e88a-ffe4-424b-b25d-7757163d7464")
+		(property "Reference" "C10"
+			(at 78.994 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C4.7uf"
+			(at 78.994 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 87.3252 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a8dbcc0-ef70-4756-9d08-1cc856deaa5f")
+		)
+		(pin "1"
+			(uuid "dad6b196-1bcd-493a-97d2-d399a27651fe")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8159,6 +8966,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 97.79 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c39f559-b54f-4336-a4e1-67e586ee04a4")
+		(property "Reference" "#PWR010"
+			(at 97.79 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 116.586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd266fc-5d19-4153-ae67-aed317dcbe12")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 52.07 80.01 90)
 		(unit 1)
@@ -8220,76 +9093,6 @@
 			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6202ccfa-8c7d-49d6-858d-e8218db58fcf")
-		(property "Reference" "C1"
-			(at 104.14 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C4.7uf"
-			(at 104.14 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 101.2952 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "320f8cdc-125c-45d6-a065-536f1ae5cc79")
-		)
-		(pin "1"
-			(uuid "4ca57a71-c990-4849-bbac-f8c44412c656")
-		)
-		(instances
-			(project ""
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8686,6 +9489,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 29.21 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "781e3f22-bf12-4f6c-8b97-8bc7d69bb016")
+		(property "Reference" "#PWR04"
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78bf2119-0417-4eee-8467-70cbf70271b7")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2025-05-30_22-53-46:TC4427ACOA")
 		(at 50.8 102.87 0)
 		(unit 1)
@@ -8916,74 +9785,6 @@
 			(project ""
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84fd8f6c-1e21-4851-8675-99bde2520edd")
-		(property "Reference" "#PWR04"
-			(at 38.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c89cde51-797e-496c-bfcc-32218b168ce1")
-		)
-		(instances
-			(project ""
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9256,35 +10057,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 82.55 129.54 90)
+		(lib_id "Device:C")
+		(at 76.2 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "960020ee-91a9-4972-b627-648752b4cfc0")
-		(property "Reference" "J1"
-			(at 87.63 128.2699 90)
+		(uuid "9503a62f-1195-4b86-b04b-2c08dcd8157a")
+		(property "Reference" "C7"
+			(at 80.01 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "XT60PW-M"
-			(at 87.63 130.8099 90)
+		(property "Value" "C4.7uf"
+			(at 80.01 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
-			(at 82.55 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 77.1652 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +10094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 129.54 0)
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,25 +10102,165 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 82.55 129.54 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 76.2 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "cff170a1-2bb7-46d0-9953-70c7f1a30536")
 		)
 		(pin "2"
-			(uuid "d83a618b-428b-4d95-9874-3e0fea8c7fcb")
+			(uuid "e6c8db9c-d167-49a0-ab06-c6b9e8ae2deb")
+		)
+		(pin "1"
+			(uuid "d3f762e8-de05-484e-b4a5-72962f4c17bd")
 		)
 		(instances
-			(project ""
+			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "J1")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97421c84-d7b8-445f-bfe6-5be6a000a391")
+		(property "Reference" "C8"
+			(at 66.04 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C0.1uf"
+			(at 66.04 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 63.1952 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "205260bf-cdfa-4f2e-b310-f99c92de9fe7")
+		)
+		(pin "1"
+			(uuid "c1287eb2-f84a-4cb2-907b-8f6536d52841")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad0d308d-93f6-4abd-be67-67a000da1b9f")
+		(property "Reference" "C2"
+			(at 101.6 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C0.1uf"
+			(at 101.6 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 98.7552 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1bc77cd-f864-438e-bdc4-6cbcac47302f")
+		)
+		(pin "1"
+			(uuid "199715ef-b72c-47e2-8488-1b966730e55b")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9419,7 +10360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "KCM55LR71J475KH01K:CAPC6153X300N"
 			(at 224.79 141.9352 0)
 			(effects
 				(font
@@ -9463,7 +10404,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 140.97 0)
+		(at 106.68 157.48 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9472,7 +10413,7 @@
 		(dnp no)
 		(uuid "c4aa9149-3d77-46c3-b691-b30496d9f242")
 		(property "Reference" "R5"
-			(at 92.964 142.24 0)
+			(at 100.584 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +10422,7 @@
 			)
 		)
 		(property "Value" "R0.001"
-			(at 88.646 139.7 0)
+			(at 96.266 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +10431,7 @@
 			)
 		)
 		(property "Footprint" "CRE2512_FZ_R001E_2 (1):RESC6432X90N"
-			(at 97.282 140.97 90)
+			(at 104.902 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +10440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 140.97 0)
+			(at 106.68 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +10449,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 140.97 0)
+			(at 106.68 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9523,7 +10464,7 @@
 			(uuid "a5a47d6f-382d-4648-a14d-1216dd8ebead")
 		)
 		(instances
-			(project ""
+			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "R5")
 					(unit 1)
@@ -9592,6 +10533,72 @@
 			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6fefb99-c946-4bcb-b04a-0489bf196078")
+		(property "Reference" "#PWR015"
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 143.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1e211d6-5022-4083-a756-ec179045e303")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9782,35 +10789,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 113.03 111.76 0)
+		(lib_id "V20DM100C-M3_I:V20DM100C-M3_I")
+		(at 101.6 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e19e58bd-fe35-4c2e-bd73-c00b4d40761e")
-		(property "Reference" "C2"
-			(at 116.84 110.4899 0)
+		(uuid "dac7ca92-76bb-4df5-97df-c42b2f7f2813")
+		(property "Reference" "D2"
+			(at 90.17 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C0.1uf"
-			(at 116.84 113.0299 0)
+		(property "Value" "V20DM100C-M3_I"
+			(at 90.17 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 113.9952 115.57 0)
+		(property "Footprint" "V40DL45BPM3I"
+			(at 82.55 73.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/87575/v20dm100c.pdf"
+			(at 82.55 -26.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diodes & Rectifiers 100V 20A SMPD(TO-263AC)"
+			(at 101.6 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,34 +10843,69 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.03 111.76 0)
+		(property "Height" "1"
+			(at 82.55 -226.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 111.76 0)
+		(property "Mouser Part Number" "78-V20DM100C-M3/I"
+			(at 82.55 -326.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "bae7e33e-1228-4218-a520-8e35c226c7e0")
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/V20DM100C-M3-I?qs=F5EMLAvA7IDlhwdxAC8a8w%3D%3D"
+			(at 82.55 -426.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 82.55 -526.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "V20DM100C-M3/I"
+			(at 82.55 -626.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8a5d4ddc-7a38-449e-a3a0-b5ed3596f919")
 		)
 		(pin "1"
-			(uuid "584d96fb-9a85-47a6-bb47-2aed18b7b3a1")
+			(uuid "a2113d22-aa8a-437d-a802-ee72423ec0ca")
+		)
+		(pin "2"
+			(uuid "81bc15be-be43-423d-96ea-d98ed3e5309b")
 		)
 		(instances
 			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "C2")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9920,140 +10980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4b70250-1c08-412b-9f70-aa7aab284b27")
-		(property "Reference" "J2"
-			(at 26.67 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT60PW-M"
-			(at 26.67 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
-			(at 26.67 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5fb7a66-e971-4ea4-8fbf-d29b4257fe0a")
-		)
-		(pin "2"
-			(uuid "5973ec4a-08e1-4f4f-adc2-3ad7cf8de85a")
-		)
-		(instances
-			(project ""
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f827e698-238a-4ace-b584-faba894f5581")
-		(property "Reference" "#PWR011"
-			(at 113.03 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b736ccef-69a7-4cd0-90ca-8c5f38b13867")
-		)
-		(instances
-			(project "KAPTON-HEATERV2"
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 226.06 104.14 180)
 		(unit 1)
@@ -10114,6 +11040,72 @@
 			(project "KAPTON-HEATERV2"
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd90d038-6cfb-409c-90c5-d5e751d96ecd")
+		(property "Reference" "#PWR016"
+			(at 62.23 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 143.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ce672c-4fb7-4369-bd5a-16027af039c6")
+		)
+		(instances
+			(project "KAPTON-HEATERV2"
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
