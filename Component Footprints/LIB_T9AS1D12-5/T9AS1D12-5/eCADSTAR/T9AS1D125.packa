@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "T9AS1D12-5"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-07-06-16:48:36)
+    (mountForm default
+        (footprintRef "T9AS1D125")
+        (spec "System")
+    )
+)

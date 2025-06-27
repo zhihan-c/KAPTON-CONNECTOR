@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'T9AS1D12_5'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "T9AS1D12-5" (!) = "", "T9AS1D125", "Other", "655-T9AS1D12-5", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/T9AS1D12-5?qs=KHldbOyX8TXPoKXQH56yNg%3D%3D", "T9AS1D12-5", "https://www.arrow.com/en/products/t9as1d12-5/te-connectivity?utm_currency=USD&region=nac", "TE Connectivity Non-Latching Relay PCB Mount", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=T9A&DocType=Data%20Sheet&DocLang=English&PartCntxt=2-1393210-0&DocFormat=pdf", "20.4 mm"
+END_PART
+
+END.

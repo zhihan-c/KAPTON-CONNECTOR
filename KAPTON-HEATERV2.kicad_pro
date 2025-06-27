@@ -554,6 +554,9 @@
       "Net-(J2-Pin_2)": [
         "24V"
       ],
+      "Net-(K1-COM)": [
+        "24V"
+      ],
       "SHUNT HIGH": [
         "24V",
         "DEF2"

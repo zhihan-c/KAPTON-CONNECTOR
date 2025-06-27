@@ -1,0 +1,18 @@
+.T9AS1D12-5 :1 ;TE Connectivity Non-Latching Relay PCB Mount
+T9AS1D125
+*STM K
+*NGS
+*PLB 1="COIL_1" 2="COIL_2" 3="COM" 4="NO"
+*MXP 4
+*DFN T9AS1D12-5
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (T9AS1D12-5)
+~!Mouser Part Number (655-T9AS1D12-5)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/T9AS1D12-5?qs=KHldbOyX8TXPoKXQH56yNg%3D%3D)
+~!Arrow Part Number (T9AS1D12-5)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/t9as1d12-5/te-connectivity?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=T9A&DocType=Data%20Sheet&DocLang=English&PartCntxt=2-1393210-0&DocFormat=pdf)
+~!Height (20.4mm)
+~!3D_Model (T9AS1D12-5)
+T9AS1D12-5
+1.1!U 2.1!U 3.1!U 4.1!U 

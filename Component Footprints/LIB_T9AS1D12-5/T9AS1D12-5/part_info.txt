@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=T9AS1D12-5
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=5
+Version=2.2
+Released=2019-03-01 18:12:00
+Downloaded=2025-06-27 08:45:55
+3D=Y

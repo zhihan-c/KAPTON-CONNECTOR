@@ -5,356 +5,6 @@
 	(uuid "5b9bbb72-d370-4e42-b502-0ae54366ed9d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1-1393210-8:1-1393210-8"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at -7.6217 8.1298 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "1-1393210-8"
-				(at -7.626 -10.1679 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "1-1393210-8:RELAY_1-1393210-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "0815"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TE connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "1-1393210-8_0_0"
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -7.62)
-					(end 5.08 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -5.08 0.762)
-					(mid -3.556 -1.2604)
-					(end -5.08 -3.302)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 3.302)
-					(mid -3.5407 1.2593)
-					(end -5.08 -0.762)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 3.302)
-					(mid -4.5085 2.54)
-					(end -5.08 1.778)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0.762)
-					(mid -4.5085 0)
-					(end -5.08 -0.762)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -1.778)
-					(mid -4.5085 -2.54)
-					(end -5.08 -3.302)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 5.08)
-					(mid -3.5512 3.4405)
-					(end -5.08 1.778)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -1.778)
-					(mid -3.5512 -3.4175)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.762 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.762 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "10090926-P154XLF:10090926-P154XLF"
 			(pin_names
 				(offset 1.016)
@@ -4315,6 +3965,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "T9AS1D12-5:T9AS1D12-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "T9AS1D12-5"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "T9AS1D125"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=T9A&DocType=Data%20Sheet&DocLang=English&PartCntxt=2-1393210-0&DocFormat=pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TE Connectivity Non-Latching Relay PCB Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "20.4"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "T9AS1D12-5"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "655-T9AS1D12-5"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/T9AS1D12-5?qs=KHldbOyX8TXPoKXQH56yNg%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "T9AS1D12-5"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t9as1d12-5/te-connectivity?utm_currency=USD&region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "T9AS1D12-5_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COIL_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COIL_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "V20DM100C-M3_I:V20DM100C-M3_I"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5175,13 +5051,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 80.01) (xy 48.26 80.01)
+			(xy 45.72 54.61) (xy 58.42 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06a28624-38ed-4d83-b7db-babc6f5147e9")
+		(uuid "08ea755d-3d6d-4197-9f94-24abe2f3e4d0")
+	)
+	(wire
+		(pts
+			(xy 26.67 54.61) (xy 38.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb19ea8-6318-4c80-bccc-c4f16916b3a1")
 	)
 	(wire
 		(pts
@@ -5245,6 +5131,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 53.34) (xy 60.96 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16961e58-2ffb-442f-b3a6-db2dc40d837f")
+	)
+	(wire
+		(pts
 			(xy 71.12 36.83) (xy 69.85 36.83)
 		)
 		(stroke
@@ -5272,6 +5168,16 @@
 			(type default)
 		)
 		(uuid "18c99adb-7bbd-4efb-a39f-28543a181d73")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a4eafa1-91f3-49a0-8e53-ba2bda406352")
 	)
 	(wire
 		(pts
@@ -5392,26 +5298,6 @@
 			(type default)
 		)
 		(uuid "40f8c02a-e6c2-4afd-901a-4599d7729d1c")
-	)
-	(wire
-		(pts
-			(xy 66.04 53.34) (xy 69.85 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a9e0a8-c0a4-4831-b7a4-86e64d3fed4f")
-	)
-	(wire
-		(pts
-			(xy 58.42 80.01) (xy 58.42 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41e4b795-eac2-49ad-b0fb-9a4da81fd25e")
 	)
 	(wire
 		(pts
@@ -5545,16 +5431,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 58.42 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6620d917-ce70-4de1-8dd2-521d158b5653")
-	)
-	(wire
-		(pts
 			(xy 69.85 47.625) (xy 69.85 53.34)
 		)
 		(stroke
@@ -5632,6 +5508,16 @@
 			(type default)
 		)
 		(uuid "93ed666f-4fc3-417f-821d-c6fb393e1097")
+	)
+	(wire
+		(pts
+			(xy 63.5 54.61) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bf6227-5fca-414a-abab-96711013e46f")
 	)
 	(wire
 		(pts
@@ -5905,7 +5791,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 53.34) (xy 55.88 53.34)
+			(xy 50.8 53.34) (xy 60.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5934,12 +5820,12 @@
 		(uuid "5d8cb5b1-f9a9-4070-bf67-3305c9f5cabc")
 	)
 	(label "24V"
-		(at 63.5 71.12 270)
+		(at 63.5 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b04d9f16-a554-492d-95ca-3603bd1c8b0f")
 	)
@@ -6813,7 +6699,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 39.37 80.01 180)
+		(at 30.48 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6823,7 +6709,7 @@
 		)
 		(uuid "0e6203b9-3f59-4ab3-908d-9c793c515ab9")
 		(property "Netclass" "24V"
-			(at 40.0685 82.55 0)
+			(at 31.1785 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,7 +6718,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -194.31 -49.53 0)
+			(at -203.2 -74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +6824,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 58.42 78.74 270)
+		(at 50.8 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6948,7 +6834,7 @@
 		)
 		(uuid "e127cbe6-b895-43b3-82b0-c430d058c9d1")
 		(property "Netclass" "24V"
-			(at 60.96 78.0415 90)
+			(at 51.4985 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +6843,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -175.26 -50.8 0)
+			(at -182.88 -74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8235,112 +8121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "1-1393210-8:1-1393210-8")
-		(at 60.96 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48a15120-1161-4a2d-8850-28e790f817f3")
-		(property "Reference" "K1"
-			(at 48.768 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1-1393210-8"
-			(at 38.1 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "T9AS1D12_24:RELAY_1-1393210-8"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "0815"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TE connectivity"
-			(at 60.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c7837d6a-a79a-4d9c-9a20-7831358503bc")
-		)
-		(pin "1"
-			(uuid "6ed01742-408d-4444-ac46-1f0e4687ac1e")
-		)
-		(pin "3"
-			(uuid "3f9424a1-c2ef-47c7-9615-465f001f83d9")
-		)
-		(pin "4"
-			(uuid "9b6a0d0f-b9ca-4d49-bfb0-4c3cad1f963f")
-		)
-		(instances
-			(project ""
-				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MBRS1100T3G:MBRS1100T3G")
 		(at 72.39 47.625 180)
 		(unit 1)
@@ -8594,7 +8374,7 @@
 	)
 	(symbol
 		(lib_id "XT60PW-M:XT60PW-M")
-		(at 31.75 69.85 90)
+		(at 26.67 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8603,7 +8383,7 @@
 		(fields_autoplaced yes)
 		(uuid "51a2e290-e1d2-4ed5-ae29-09677741997a")
 		(property "Reference" "J2"
-			(at 35.56 68.5799 90)
+			(at 30.48 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8392,7 @@
 			)
 		)
 		(property "Value" "XT60PW-M"
-			(at 35.56 71.1199 90)
+			(at 30.48 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8401,7 @@
 			)
 		)
 		(property "Footprint" "XT60PW-M:AMASS_XT60PW-M"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8420,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8429,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8439,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +8449,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +8459,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8469,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=eda"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,7 +8479,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer recommendations"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8489,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8499,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT60PW-M/AMASS/view-part/?ref=snap"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8729,7 +8509,7 @@
 			)
 		)
 		(property "MP" "XT60PW-M"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,7 +8519,7 @@
 			)
 		)
 		(property "Description_1" "Socket, DC supply, male, PIN: 2"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8529,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +8539,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 31.75 69.85 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +8813,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 52.07 80.01 90)
+		(at 41.91 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9041,7 +8821,7 @@
 		(dnp no)
 		(uuid "60cf2a41-83e4-429a-b20d-28a56780274b")
 		(property "Reference" "F1"
-			(at 52.07 73.66 90)
+			(at 41.91 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,7 +8829,7 @@
 			)
 		)
 		(property "Value" "14 Amp Fuse"
-			(at 52.07 83.058 90)
+			(at 41.91 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9057,7 +8837,7 @@
 			)
 		)
 		(property "Footprint" "FUSE_0697H9200:FUSRR508W60L835T400H810"
-			(at 52.07 81.788 90)
+			(at 41.91 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9066,7 +8846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 80.01 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9075,7 +8855,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 52.07 80.01 0)
+			(at 41.91 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9270,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 80.01 0)
+		(at 24.13 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9498,7 +9278,7 @@
 		(dnp no)
 		(uuid "781e3f22-bf12-4f6c-8b97-8bc7d69bb016")
 		(property "Reference" "#PWR04"
-			(at 29.21 86.36 0)
+			(at 24.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 83.566 0)
+			(at 24.13 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 80.01 0)
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +9305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 80.01 0)
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,7 +9314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 80.01 0)
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,6 +9565,157 @@
 			(project ""
 				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "T9AS1D12-5:T9AS1D12-5")
+		(at 63.5 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85099c68-a281-4921-895d-72233f0d2bc0")
+		(property "Reference" "K1"
+			(at 67.31 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T9AS1D12-5"
+			(at 67.31 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "T9AS1D125"
+			(at -31.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=T9A&DocType=Data%20Sheet&DocLang=English&PartCntxt=2-1393210-0&DocFormat=pdf"
+			(at -131.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TE Connectivity Non-Latching Relay PCB Mount"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "20.4"
+			(at -331.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at -431.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "T9AS1D12-5"
+			(at -531.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "655-T9AS1D12-5"
+			(at -631.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/T9AS1D12-5?qs=KHldbOyX8TXPoKXQH56yNg%3D%3D"
+			(at -731.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "T9AS1D12-5"
+			(at -831.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/t9as1d12-5/te-connectivity?utm_currency=USD&region=nac"
+			(at -931.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5fe5d6e3-9f19-4527-b9b7-adb9add72471")
+		)
+		(pin "1"
+			(uuid "9caea712-7af3-4c39-adbc-1bc85b451d7a")
+		)
+		(pin "4"
+			(uuid "d941d7d6-a3e5-450b-8add-c0e814195d29")
+		)
+		(pin "2"
+			(uuid "be491870-ae91-4cac-83bf-ba5fb76d2846")
+		)
+		(pin "3"
+			(uuid "a7ef2661-da6a-4715-b729-2502c4c983ac")
+		)
+		(instances
+			(project ""
+				(path "/5b9bbb72-d370-4e42-b502-0ae54366ed9d"
+					(reference "K1")
 					(unit 1)
 				)
 			)
